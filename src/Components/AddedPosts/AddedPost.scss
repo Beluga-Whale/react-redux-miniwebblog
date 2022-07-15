@@ -1,0 +1,56 @@
+.Add-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h1 {
+        color: aqua;
+        font-size: 100px;
+        // text-align: center;
+    }
+
+    .form-add {
+        max-width: 75rem;
+        margin: 0 auto;
+
+        label {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        input {
+            width: 39.9rem;
+            height: 3rem;
+            border: none;
+            font-size: 20px;
+            border-radius: 0.3rem;
+            margin-bottom: 1rem;
+        }
+        textarea {
+            width: 40rem;
+            height: 10rem;
+            margin-top: 1rem;
+            font-size: 20px;
+        }
+        button {
+            border: none;
+            border-radius: 0.3rem;
+            margin-top: 1rem;
+            width: 7rem;
+            height: 4rem;
+            cursor: pointer;
+            font-size: 2rem;
+            color: #fff;
+            background-color: rgb(241, 219, 17);
+            transition: .3s;
+
+            &:hover {
+                background: red;
+            }
+        }
+    }
+}   
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+}
